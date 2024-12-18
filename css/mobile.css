@@ -1,0 +1,1109 @@
+@media screen and (max-width: 1265px) {
+    .headLogo .scDown, .headLogo .scTop {
+        display: none !important;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .videoBox{
+        min-height: 800px
+    }
+}
+@media (max-width: 992px) {
+    .mobileTop {
+        display: block;
+        position: absolute;
+        z-index: 2;
+        width: 100%;
+        left: 0;
+        top: 0;
+        padding: 15px;
+    }
+
+    .mobileTop .box {
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }
+
+    .mobileTop .openBtn {
+		background: url(../images/caidan.png);
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        right: 0;
+        top: 0;
+        cursor: pointer;
+		transform: rotate(55deg);
+		transiton: all 1s;
+    }
+
+
+    .mobileTop .openBtn:hover {
+        transform:rotate(55deg)
+		transiton: 100s;
+    }
+
+    .mobileTop .closeBtn:hover {
+		transform:rotate(85deg)
+    }
+
+    .mobileTop .logo {
+        width: 50%;
+        margin: 0;
+    }
+
+    .mobileTop .logo img {
+        width: 100%;
+        max-width: 185px;
+    }
+
+    .mobileNav {
+        width: 100%;
+        min-height: 100vh;
+        background: black;
+        position: fixed;
+        z-index: 1;
+        padding: 80px 15px;
+        overflow: scroll;
+    }
+
+    .mobileNav .listBox {
+        width: 50%;
+        height: 200px;
+        padding: 5px;
+        margin: 0;
+    }
+
+    .mobileNav .listBox .childBox {
+        padding: 0;
+    }
+
+    .mobileNav .listBox .childBox li {
+        margin: 10px 0;
+        font-size: 14px;
+        padding: 0 10px;
+    }
+
+    .mobileNav .listBox .more p {
+        position: relative;
+    }
+
+    .mobileNav .listBox .more p::after {
+        position: absolute;
+        content: '';
+        width: 16px;
+        right: 0;
+        top: 50%;
+        height: 2px;
+        background: #999;
+    }
+
+    .mobileNav .listBox .more p::before {
+        position: absolute;
+        content: '';
+        width: 2px;
+        right: 7px;
+        top: calc(50% - 7px);
+        height: 16px;
+        background: #999;
+        transition: .3s;
+    }
+
+    .mobileNav .listBox .more .childBox {
+        display: none;
+    }
+
+    .mobileNav .listBox .closeBtn p::before {
+        opacity: 0;
+    }
+
+    .mobileNav .listBox .listBtn {
+        margin-bottom: 50px;
+    }
+
+    .mobileNav .listBox .listBtn p {
+        margin: 0;
+        padding: 5px 0;
+        border-bottom: 1px solid #999;
+    }
+
+    .mobileNav a, .mobileNav p, .mobileNav li {
+        color: #e0e0e0;
+    }
+
+    .rightNav {
+        display: none;
+    }
+
+    #headerBox #headerNav {
+        display: none;
+    }
+
+    .homeBanner .museumInfoBox {
+        width: 90%;
+        left: 50%;
+        top: 75%;
+        transform: translate(-50%, -50%);
+        animation: none;
+    }
+
+    .homeBanner .bdsharebuttonbox {
+        display: none;
+    }
+
+    .homeBanner .homeBannerLeftText {
+        display: none;
+    }
+
+    .homeMessageBox {
+        padding: 20px 0;
+    }
+
+    .homeMessageBox .homeMessageTitle img {
+        width: 80%;
+        max-width: 300px;
+		margin-left: -50px;
+    }
+
+    .homeMessageBox .uk-container {
+        padding: 0 10px;
+    }
+
+    .homeMessageBox .leftContent .leftContentBox {
+        padding: 40px;
+        height: auto;
+    }
+
+    .homeMessageBox .leftContent .leftContentBox li {
+        padding: 10px 0;
+    }
+
+    .homeMessageBox .rightContent {
+        height: auto;
+    }
+
+    .homeMessageBox .rightContent .contentBox {
+        padding: 0 35px;
+    }
+
+    .homeMessageBox .homeMessageSilde .homeMessageSildeNext {
+        top: 40%;
+    }
+
+    .homeMessageBox .homeMessageSilde .homeMessageSildePrev {
+        top: 40%;
+    }
+
+    .homeServiceBox {
+        padding: 20px 0;
+    }
+
+    .homeServiceBox .homeServiceTitle img {
+        width: 85%;
+        max-width: 320px;
+    }
+
+    .homeServiceBox .list1Title {
+        margin: 10px 0;
+    }
+
+    .homeServiceBox .list1BottomBox {
+        padding-left: 42px;
+    }
+
+    .homeServiceBox .list1Box {
+        margin: 10px 0;
+    }
+
+    .homeServiceBox .list1Box .list1List .time {
+        font-size: 20px;
+        position: relative;
+    }
+
+    .homeServiceBox .list {
+        margin: 10px 0;
+        height: auto;
+    }
+
+    .homeServiceBox .list .box {
+        padding: 15px 30px !important;
+    }
+
+    .homeServiceBox .list .box .textBox {
+        width: 50%;
+        margin: 10px auto;
+    }
+
+    .homeServiceBox .list .box .textBox .textName {
+        font-size: 18px;
+    }
+
+    .homeServiceBox .list .box .imgBox {
+        width: 80px;
+        height: 68px;
+        background-size: contain;
+    }
+
+    .homeServiceBox .list .box .imgBox img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+
+    .homeCyclopediaBox .homeCyclopediaTitle {
+        padding-left: 35px;
+    }
+
+    .homeCyclopediaBox .contentBox .cyclopediaPagination {
+        display: none;
+    }
+
+    .homeCyclopediaBox .contentBox .cyclopediaPrev {
+        left: 10px;
+        top: 20%;
+    }
+
+    .homeCyclopediaBox .contentBox .cyclopediaNext {
+        right: 10px;
+        top: 20%;
+    }
+
+    .homeCyclopediaBox .contentBox .leftBox {
+        width: 100%;
+        height: 60%;
+        background-position: left center;
+        bottom: 0;
+        top: initial;
+        padding: 40px;
+    }
+
+    .homeCyclopediaBox .contentBox .leftBox .more {
+        margin-top: 0;
+    }
+
+    .homeCyclopediaBox .contentBox .leftBox .info {
+        margin-top: 10px;
+    }
+
+    .homeCyclopediaBox .contentBox .rightBox {
+        height: 40%;
+        width: 100%;
+    }
+
+    .homeTourBox {
+        height: auto;
+        background: none;
+    }
+
+    .homeTourBox .homeTourContentBox {
+        padding: 20px 0 20px;
+    }
+
+    .homeTourBox .homeTourContentBox .homeTourSildePagination {
+        display: none;
+    }
+
+    .homeTourBox .homeTourContentBox .homeTourSildeNext {
+        top: 40%;
+        right: 15px;
+    }
+
+    .homeTourBox .homeTourContentBox .homeTourSildePrev {
+        top: 40%;
+        left: 15px;
+    }
+
+    .homeTourBox .homeTourContentBox .homeTourSilde {
+        top: initial;
+        transform: initial;
+    }
+
+    .homeTourBox .homeTourContentBox .homeTourSilde .swiper-slide {
+        margin-top: 0 !important;
+    }
+
+    .homeTourBox .homeTourContentBox .homeTourSilde .swiper-slide .showBox {
+        opacity: 1;
+        transform: initial;
+    }
+
+    .homeTourBox .homeTourContentBox .homeTourContentRightBtn {
+        top: 18px;
+        text-align: right;
+    }
+
+    .homeTourBox .homeTourContentBox .homeTourContentRightBtn .list {
+        margin: 0 4px;
+    }
+
+    .homeTourBox .homeTourContentBox .homeTourContentRightBtn .list .cn {
+        font-size: 15px;
+    }
+
+    .homeTourBox .homeTourContentBox .homeTourContentRightBtn .list .en {
+        display: none;
+    }
+
+    .homeTourBox .homeTourContentBox .homeTourContentRightBtn .list::after {
+        display: none;
+    }
+
+    .homeTourBox .homeTourTitle img {
+        width: 25%;
+        max-width: 120px;
+    }
+
+    .homeScenicBox {
+        padding: 20px 0;
+    }
+
+    .homeScenicBox .scenicList {
+        margin-top: 15px;
+    }
+
+    .homeScenicBox .homeScenicTitle {
+        padding: 10px 0;
+    }
+
+    .homeScenicBox .homeScenicTitle img {
+        width: 82%;
+        max-width: 310px;
+		margin-left: -20px;
+		margin-bottom: -25px;
+    }
+
+    .homeScenicBox .homeScenicTop {
+        padding: 0;
+        height: 50vh;
+    }
+
+    .homeScenicBox .homeScenicTop .picBox img {
+        object-fit: cover;
+    }
+
+    .homeScenicBox .homeScenicTop .contentBox {
+        max-width: 100%;
+        width: 95%;
+    }
+
+    .homeScenicBox .homeScenicTop .contentBox .title {
+        font-size: 20px;
+    }
+
+    .homeScenicBox .homeScenicTop .contentBox .info {
+        font-size: 15px;
+    }
+
+    .footerBox .footerLogo {
+        padding: 10px 0;
+    }
+
+    .footerBox .footerBtn, .footerBox .footerCopyright {
+        display: none;
+    }
+
+    .insideNav {
+        display: none;
+    }
+
+    .introduceBox {
+        padding: 0 15px;
+    }
+
+    .introduceCenter .developTrack .timeline:after {
+        left: 0;
+    }
+
+    .introduceCenter .developTrack .timeline:before {
+        left: 25px;
+    }
+
+    .introduceCenter .developTrack .timeline .list {
+        text-align: left !important;
+        margin: 10px 0;
+    }
+
+    .introduceCenter .developTrack .timeline .list:before {
+        left: 20px;
+    }
+
+    .introduceCenter .developTrack .timeline .list a {
+        padding: 0 10px 0 50px;
+    }
+
+    .introduceCenter .introduceCenterBtn {
+        margin: 60px auto;
+    }
+
+    .introduceCenter .introduceCenterBtn .list {
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 71vw;
+        height: 32vw;
+        margin: 10px auto;
+    }
+
+    .introduceCenter .introduceCenterBtn .list .box .rightBox {
+        margin: 0;
+    }
+
+    .introduceCenter .introduceCenterBtn .list .box .rightBox .rightBoxTitleCn {
+        font-size: 20px;
+    }
+
+    .introduceCenter .introduceCenterBtn .list .box .rightBox .rightBoxTitleEn {
+        display: none;
+    }
+
+    .constitutionBox {
+        background: #dedede;
+    }
+
+    .constitutionBox .contentBox {
+        padding: 0 10px;
+    }
+
+    .constitutionBox .contentBox .titleBox {
+        line-height: 2.5em;
+    }
+
+    .constitutionBox .contentBox .textBox {
+        padding: 10px;
+    }
+
+    .topBlank {
+        display: none;
+    }
+
+    .animateBanner {
+        height: 30vh;
+    }
+
+    .animateBanner img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .animateBanner .textBox .titleMain {
+        font-size: 20px;
+    }
+
+    .animateBanner .textBox .titleSecondary {
+        font-size: 14px;
+    }
+
+    .videoBox {
+        padding: 40px 0;
+    }
+
+    .videoBox .box {
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+
+    .videoBox .box .list {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .videoBox .box .list .boxImg {
+        height: 200px;
+    }
+
+    .videoBox .box .list .boxImg::before, .videoBox .box .list .boxImg::after {
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    .displayBox .panoramicImg {
+        height: 280px;
+        object-fit: cover;
+    }
+
+    .displayBox .infoBox {
+        padding: 20px 0;
+    }
+
+    .displayBox .contentBox {
+        padding: 30px 0;
+    }
+
+    .displayBox .contentBox #displayBoxSwiper {
+        padding-top: 40px;
+    }
+
+    .displayBox .contentBox .listBox {
+        padding: 20px 15px;
+    }
+
+    .displayBox .contentBox .listBox .listMore {
+        box-shadow: 4px 4px 5px #ccc;
+    }
+
+    .displayBox .contentBox .listBox .listMore .imgBox {
+        height: 140px;
+    }
+
+    .displayBox .contentBox .listBox .listMore .title {
+        line-height: 1.5em;
+    }
+
+    .displayBox .contentBox .listBox .listMore .info {
+        padding: 0 10px 10px;
+    }
+
+    .jewelleryBox .mainBox {
+        padding: 20px 0;
+    }
+
+    .jewelleryBox .mainBox .jewelleryInfo {
+        margin: 0;
+        padding: 20px 15px 40px;
+    }
+
+    .jewelleryBox .mainBox #jewellerySwiper {
+        padding: 50px 0 0;
+    }
+
+    .jewelleryBox .mainBox #jewellerySwiper .list {
+        padding: 0 15px;
+    }
+
+    .jewelleryBox .mainBox #jewellerySwiper .list .listImg {
+        height: 180px;
+        object-fit: cover;
+    }
+
+    .jewelleryBox .mainBox #jewellerySwiper .jewelleryPagination .swiper-pagination-bullet {
+        width: 20%;
+        font-size: 17px;
+        height: 30px;
+    }
+
+    .speechBox .contentBox {
+        padding: 10px 15px;
+    }
+
+    .organizationBox {
+        padding: 30px 0;
+    }
+
+    .announcementBox {
+        padding: 20px 0;
+    }
+
+    .announcementBox .cyclopediaTitle {
+        margin-bottom: 0;
+    }
+
+    .announcementBox .titleLeftBtn {
+        display: flex;
+    }
+
+    .announcementBox .titleLeftBtn .list {
+        flex: 1;
+    }
+
+    .announcementBox .titleLeftBtn .list a {
+        font-size: 16px;
+    }
+
+    .announcementBox .contentBox {
+        margin: 0;
+    }
+
+    .announcementBox .contentBox .imgBox {
+        height: 200px;
+    }
+
+    .announcementBox .contentBox .textBox {
+        padding: 10px;
+    }
+
+    .announcementBox .contentBox .textBox .date {
+        display: none;
+    }
+
+    .announcementBox .contentBox .textBox .year {
+        display: none;
+    }
+
+    .announcementBox .contentBox .listBox .time {
+        display: none;
+    }
+
+    .announcementBox .contentBox .listBox .num {
+        display: none;
+    }
+
+    .announcementBox .contentBox .listBox .title {
+        line-height: initial;
+        width: 89%;
+        padding: 30px 10px;
+        font-size: 15px;
+    }
+
+    .exhibitionTrailerBox {
+        padding: 20px 10px;
+    }
+
+    .exhibitionTrailerBox .titleBox {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    .exhibitionTrailerBox .list {
+        height: initial;
+        padding: 10px 0;
+    }
+
+    .exhibitionTrailerBox .list .more {
+        display: none;
+    }
+
+    .exhibitionTrailerBox .list .time {
+        font-size: 12px;
+    }
+
+    .exhibitionTrailerBox .list .name {
+        line-height: initial;
+        font-size: 14px;
+    }
+
+    .exhibitionTrailerBox .list .address {
+        line-height: initial;
+        font-size: 14px;
+    }
+
+    .exhibitionTrailerBox .list .address::after {
+        display: none;
+    }
+
+    .exhibitionCooperationBox .worldBox #exhibitionBanner .imgBox1 {
+        width: 100%;
+        height: 220px;
+    }
+
+    .exhibitionCooperationBox .worldBox #exhibitionBanner .textBox {
+        position: relative;
+        width: 100%;
+        transform: initial;
+        top: initial;
+        left: initial;
+        padding: 20px 15px;
+        height: auto;
+    }
+
+    .exhibitionCooperationBox .worldBox #exhibitionBanner .imgBox2 {
+        display: none;
+    }
+
+    .exhibitionCooperationBox .worldBox #exhibitionBanner .exhibitionNext, .exhibitionCooperationBox .worldBox #exhibitionBanner .exhibitionPrev {
+        display: none;
+    }
+
+    .exhibitionCooperationBox .worldBox #exhibitionBanner .exhibitionPagination {
+        padding: 0 20px;
+    }
+
+    .exhibitionCooperationBox .worldBox .infoBox .more {
+        background-size: contain;
+        line-height: 40px;
+        font-size: 20px;
+    }
+
+    .exhibitionCooperationBox .domesticBox .listBox .list {
+        margin-bottom: 0;
+    }
+
+    .exhibitionCooperationBox .domesticBox .listBox .list .imgBox {
+        height: 200px;
+    }
+
+    .appointmentBanner {
+        height: 35vh;
+    }
+
+    .appointmentBox {
+        padding: 20px 0;
+    }
+
+    .appointmentBox .list .imgBox {
+        height: 210px;
+    }
+
+    .appointmentBox .list .textBox {
+        padding: 10px;
+        height: auto;
+    }
+
+    .appointmentBox .list .textBox .title {
+        font-size: 17px;
+    }
+
+    .appointmentBox .list .textBox .detailsBtn, .appointmentBox .list .textBox .subscribeBtn {
+        line-height: 30px;
+        width: 80px;
+        font-size: 14px;
+    }
+
+    .cyclopediaBanner {
+        padding: 0 10px;
+        height: 400px;
+    }
+
+    .achievementTop .textBox {
+        width: 95%;
+    }
+
+    .achievementTop .textBox .titleThirdly, .achievementTop .textBox .more, .achievementTop .textBox .line {
+        display: none;
+    }
+
+    .achievementBox {
+        padding: 20px 0;
+    }
+
+    .achievementBox .container {
+        padding: 0;
+    }
+
+    .achievementBox .box {
+        margin: 0;
+    }
+
+    .achievementBox .box .list {
+        padding: 5px;
+    }
+
+    .achievementBox .box .list .imgBox {
+        height: 215px;
+    }
+
+    .achievementBox .box .list .title {
+        font-size: 16px;
+    }
+
+    .researchBox .topContent {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .researchBox .topContent .imgBox {
+        height: 200px;
+    }
+
+    .researchBox .topContent .textBox .title {
+        font-size: 20px;
+    }
+
+    .researchBox .topContent .textBox .list {
+        font-size: 14px;
+    }
+
+    .researchBox .topContent .textBox .tel {
+        font-size: 14px;
+    }
+
+    .researchBox .topContent .textBox .more {
+        font-size: 14px;
+        line-height: 35px;
+    }
+
+    .researchBox .bottomContent .box .list .title {
+        font-size: 16px;
+        line-height: 40px;
+    }
+
+    .supportingBox .contentBox {
+        padding: 20px 15px;
+    }
+
+    .supportingBox .contentBox .box {
+        margin: 0 -15px;
+    }
+
+    .supportingBox .contentBox .box .list {
+        padding: 0 15px;
+        margin-bottom: 30px;
+    }
+
+    .supportingBox .contentBox .box .list .imgBox {
+        height: 200px;
+    }
+
+    .supportingBox .contentBox .box .list .title {
+        line-height: 45px;
+        font-size: 16px;
+    }
+
+    .supportingBox .contentBox .box .list .info {
+        font-size: 14px;
+    }
+
+    .supportingBox .contentBox .box .list:last-child {
+        margin-bottom: 0;
+    }
+
+    .ticketBox .contentBox {
+        padding: 30px 15px;
+    }
+
+    .ticketBox .topTicketBox {
+        padding: 10px 0;
+        margin: auto;
+    }
+
+    .ticketBox .topTicketBox .title {
+        font-size: 18px;
+    }
+
+    .ticketBox .topTicketBox .list {
+        font-size: 14px;
+    }
+
+    .ticketBox .openTimeBox {
+        margin-top: 10px;
+        padding: 0;
+    }
+
+    .ticketBox .openTimeBox .textBox {
+        padding: 15px 5px;
+    }
+
+    .ticketBox .openTimeBox .textBox .title {
+        font-size: 17px;
+        line-height: 35px;
+        margin-bottom: 0;
+    }
+
+    .ticketBox .openTimeBox .textBox .list {
+        font-size: 13px;
+    }
+
+    .ticketBox .openTimeBox .imgBox {
+        height: 150px;
+    }
+
+    .ticketBox .openTimeBox .imgBox img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .ticketBox .explainBox {
+        margin: 10px 0;
+    }
+
+    .ticketBox .explainBox div {
+        padding: 0;
+    }
+
+    .ticketBox .explainBox .imgBox {
+        height: 240px;
+    }
+
+    .ticketBox .explainBox .textBox {
+        text-align: center;
+    }
+
+    .ticketBox .explainBox .textBox .title {
+        font-size: 18px;
+        line-height: 35px;
+        margin-bottom: 0;
+    }
+
+    .ticketBox .explainBox .textBox .list {
+        font-size: 14px;
+    }
+
+    .surroundingBox .contentBox .surroundingBtn .list {
+        width: 25%;
+        font-size: 18px;
+        line-height: 34px;
+    }
+
+    .surroundingBox .strategyBox {
+        padding: 15px;
+    }
+
+    .surroundingBox .strategyBox .box {
+        margin: 0 -15px;
+    }
+
+    .surroundingBox .strategyBox .box .list {
+        padding: 0 15px;
+    }
+
+    .surroundingBox .strategyBox .box .list .imgBox {
+        height: 200px;
+    }
+
+    .surroundingBox .strategyBox .box .list .textBox .title {
+        font-size: 18px;
+        line-height: 40px;
+    }
+
+    .surroundingBox .strategyBox .box .list .textBox .info {
+        font-size: 14px;
+    }
+
+    .surroundingBox .hotelBox {
+        padding: 10px;
+    }
+
+    .surroundingBox .hotelBox .list {
+        margin: 10px -10px;
+    }
+
+    .surroundingBox .hotelBox .list .imgBox {
+        height: 220px;
+    }
+
+    .surroundingBox .hotelBox .list .textBox {
+        padding: 0 20px;
+    }
+
+    .surroundingBox .hotelBox .list .textBox .nameEn, .surroundingBox .hotelBox .list .textBox .info, .surroundingBox .hotelBox .list .textBox .address, .surroundingBox .hotelBox .list .textBox .tel {
+        font-size: 14px;
+        margin-bottom: 14px;
+    }
+
+    .surroundingBox .hotelBox .list .textBox .name {
+        font-size: 20px;
+    }
+
+    .surroundingBox .hotelBox .list .textBox .more {
+        width: 100%;
+    }
+
+    .surroundingBox .hotelBox .list .textBox .more .moreBtn {
+        width: calc(50% - 2px);
+        line-height: 40px;
+    }
+
+    .surroundingBox .hotelBox .list .textBox .more .bookingBtn {
+        width: calc(50% - 2px);
+        line-height: 40px;
+    }
+
+    .shopBox .contentBox {
+        padding: 20px 10px;
+    }
+
+    .shopBox .contentBox #shopSwiper {
+        padding-bottom: 40px;
+    }
+
+    .shopBox .contentBox .row {
+        margin: 0;
+    }
+
+    .shopBox .contentBox .imgBox {
+        height: 240px;
+        text-align: center;
+    }
+
+    .shopBox .contentBox .textBox {
+        padding: 0 10px;
+    }
+
+    .shopBox .contentBox .textBox .name {
+        font-size: 20px;
+    }
+
+    .shopBox .contentBox .textBox .info, .shopBox .contentBox .textBox .guarantee, .shopBox .contentBox .textBox .delivery {
+        font-size: 14px;
+    }
+
+    .shopBox .contentBox .shopPrev, .shopBox .contentBox .shopNext {
+        display: none;
+    }
+
+    .shopBox .otherBox .row {
+        margin: 0;
+    }
+
+    .shopBox .otherBox .list .box .imgBox {
+        height: auto;
+    }
+
+    .shopBox .otherBox .list .box .imgBox img {
+        width: auto;
+        height: auto;
+        max-width: 100%;
+    }
+
+    .volunteerBox {
+        padding: 20px 10px;
+    }
+
+    .volunteerBox .volunteerTop .row .volunteerTop1, .volunteerBox .volunteerTop .row .volunteerTop3 {
+        display: none;
+    }
+
+    .volunteerBox .volunteerTop .row .volunteerTop2 {
+        clear: both;
+    }
+
+    .volunteerBox .volunteerTop .row .volunteerTop2 img {
+        width: 100%;
+    }
+
+    .volunteerBox .volunteerTop .row .volunteerTop2 .volunteerImg3 {
+        width: 54.5%;
+        float: left;
+    }
+
+    .volunteerBox .volunteerTop .row .volunteerTop2 .volunteerImg4 {
+        width: 45.5%;
+        margin: 9px 0 0;
+        float: left;
+    }
+
+    .volunteerBox .hotBox .imgBox {
+        height: 240px;
+    }
+
+    .volunteerBox .hotBox .textBox {
+        height: auto;
+    }
+
+    .volunteerBox .hotBox .textBox .title {
+        line-height: 1.5em;
+        padding: 10px 0;
+    }
+
+    .volunteerBox .hotBottomBox .contentBox .listBox .time {
+        display: none;
+    }
+
+    .volunteerBox .hotBottomBox .contentBox .listBox .title {
+        line-height: initial;
+        width: 89%;
+        padding: 20px 10px;
+        font-size: 15px;
+    }
+
+    .contactBox .contactTitle {
+        font-size: 15px;
+    }
+
+    .contactBox .contentBox .imgBox {
+        height: 50vw;
+    }
+
+    .contactBox .contentBox .contactText {
+        font-size: 16px;
+        line-height: 2em;
+    }
+
+    .messageBox .box {
+        padding: 20px 0;
+    }
+	.footerLogo img{
+	    height: 95px;
+		width: 110px;
+	}
+}
